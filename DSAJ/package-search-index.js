@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"dsaj.arrays"},{"l":"dsaj.asymptotics"},{"l":"dsaj.design"},{"l":"dsaj.lists"},{"l":"dsaj.maps"},{"l":"dsaj.pq"},{"l":"dsaj.primer"},{"l":"dsaj.queues"},{"l":"dsaj.recursion"},{"l":"dsaj.stacks"},{"l":"dsaj.text"},{"l":"dsaj.trees"},{"l":"net.datastructures"}];updateSearchResults();
