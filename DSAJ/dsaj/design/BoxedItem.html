@@ -133,20 +133,22 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#description()" class="member-name-link">description</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns a description of the object.</div>
+<div class="block">Returns a description of the item.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#insuredValue()" class="member-name-link">insuredValue</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Returns the insured value of the item.</div>
+</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>boolean</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#isHazardous()" class="member-name-link">isHazardous</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns whether the object is hazardous.</div>
+<div class="block">Returns whether the item is hazardous.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#listPrice()" class="member-name-link">listPrice</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns the list price in cents.</div>
+<div class="block">Returns the list price of the item in cents.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#lowestPrice()" class="member-name-link">lowestPrice</a>()</code></div>
@@ -157,11 +159,13 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setBox(int,int,int)" class="member-name-link">setBox</a><wbr>(int&nbsp;h,
  int&nbsp;w,
  int&nbsp;d)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Sets the dimensions of the item's box.</div>
+</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#weight()" class="member-name-link">weight</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns the weight in grams.</div>
+<div class="block">Returns the weight of the item.</div>
 </div>
 </div>
 </div>
@@ -188,6 +192,13 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
  int&nbsp;w,
  boolean&nbsp;h)</span></div>
 <div class="block">Constructor</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>desc</code> - a description of the item</dd>
+<dd><code>p</code> - the price of the item in cents</dd>
+<dd><code>w</code> - the weight of the item in grams</dd>
+<dd><code>h</code> - true if object is hazardous</dd>
+</dl>
 </section>
 </li>
 </ul>
@@ -202,13 +213,12 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <section class="detail" id="description()">
 <h3>description</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">description</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="Sellable.html#description()">Sellable</a></code></span></div>
-<div class="block">Returns a description of the object.</div>
+<div class="block">Returns a description of the item.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="Sellable.html#description()">description</a></code>&nbsp;in interface&nbsp;<code><a href="Sellable.html" title="interface in dsaj.design">Sellable</a></code></dd>
 <dt>Returns:</dt>
-<dd>a description of the object</dd>
+<dd>a description of the item</dd>
 </dl>
 </section>
 </li>
@@ -216,13 +226,12 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <section class="detail" id="listPrice()">
 <h3>listPrice</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">listPrice</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="Sellable.html#listPrice()">Sellable</a></code></span></div>
-<div class="block">Returns the list price in cents.</div>
+<div class="block">Returns the list price of the item in cents.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="Sellable.html#listPrice()">listPrice</a></code>&nbsp;in interface&nbsp;<code><a href="Sellable.html" title="interface in dsaj.design">Sellable</a></code></dd>
 <dt>Returns:</dt>
-<dd>the list price in cents</dd>
+<dd>the list price of the item in cents</dd>
 </dl>
 </section>
 </li>
@@ -230,7 +239,6 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <section class="detail" id="lowestPrice()">
 <h3>lowestPrice</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">lowestPrice</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="Sellable.html#lowestPrice()">Sellable</a></code></span></div>
 <div class="block">Returns the lowest price, in cents, we will accept.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
@@ -244,11 +252,12 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <section class="detail" id="weight()">
 <h3>weight</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">weight</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="Transportable.html#weight()">Transportable</a></code></span></div>
-<div class="block">Returns the weight in grams.</div>
+<div class="block">Returns the weight of the item.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="Transportable.html#weight()">weight</a></code>&nbsp;in interface&nbsp;<code><a href="Transportable.html" title="interface in dsaj.design">Transportable</a></code></dd>
+<dt>Returns:</dt>
+<dd>the weight of the item</dd>
 </dl>
 </section>
 </li>
@@ -256,11 +265,12 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <section class="detail" id="isHazardous()">
 <h3>isHazardous</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isHazardous</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="Transportable.html#isHazardous()">Transportable</a></code></span></div>
-<div class="block">Returns whether the object is hazardous.</div>
+<div class="block">Returns whether the item is hazardous.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="Transportable.html#isHazardous()">isHazardous</a></code>&nbsp;in interface&nbsp;<code><a href="Transportable.html" title="interface in dsaj.design">Transportable</a></code></dd>
+<dt>Returns:</dt>
+<dd>true if the item is hazardous, else false</dd>
 </dl>
 </section>
 </li>
@@ -268,6 +278,11 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <section class="detail" id="insuredValue()">
 <h3>insuredValue</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">insuredValue</span>()</div>
+<div class="block">Returns the insured value of the item.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the insured value of the item</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -276,6 +291,13 @@ implements <a href="Sellable.html" title="interface in dsaj.design">Sellable</a>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setBox</span><wbr><span class="parameters">(int&nbsp;h,
  int&nbsp;w,
  int&nbsp;d)</span></div>
+<div class="block">Sets the dimensions of the item's box.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>h</code> - the height of the box</dd>
+<dd><code>w</code> - the width of the box</dd>
+<dd><code>d</code> - the depth of the box</dd>
+</dl>
 </section>
 </li>
 </ul>

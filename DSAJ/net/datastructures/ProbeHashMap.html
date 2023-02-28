@@ -94,12 +94,18 @@ loadScripts(document, 'script');</script>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
+<dt>Type Parameters:</dt>
+<dd><code>K</code> - The key type (keys must be unique and hashable)</dd>
+<dd><code>V</code> - The value type</dd>
+</dl>
+<dl class="notes">
 <dt>All Implemented Interfaces:</dt>
 <dd><code><a href="Map.html" title="interface in net.datastructures">Map</a>&lt;K,<wbr>V&gt;</code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">ProbeHashMap&lt;K,<wbr>V&gt;</span>
 <span class="extends-implements">extends <a href="AbstractHashMap.html" title="class in net.datastructures">AbstractHashMap</a>&lt;K,<wbr>V&gt;</span></div>
+<div class="block">Map implementation using hash table with linear probing.</div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -135,12 +141,12 @@ loadScripts(document, 'script');</script>
 </div>
 <div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(int)" class="member-name-link">ProbeHashMap</a><wbr>(int&nbsp;cap)</code></div>
 <div class="col-last odd-row-color">
-<div class="block">Creates a hash table with given capacity and prime factor 109345121.</div>
+<div class="block">Creates a hash table with given capacity and prime number 109345121.</div>
 </div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(int,int)" class="member-name-link">ProbeHashMap</a><wbr>(int&nbsp;cap,
  int&nbsp;p)</code></div>
 <div class="col-last even-row-color">
-<div class="block">Creates a hash table with the given capacity and prime factor.</div>
+<div class="block">Creates a hash table.</div>
 </div>
 </div>
 </section>
@@ -221,7 +227,11 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="&lt;init&gt;(int)">
 <h3>ProbeHashMap</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">ProbeHashMap</span><wbr><span class="parameters">(int&nbsp;cap)</span></div>
-<div class="block">Creates a hash table with given capacity and prime factor 109345121.</div>
+<div class="block">Creates a hash table with given capacity and prime number 109345121.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>cap</code> - the initial length of the hash table</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -229,7 +239,12 @@ loadScripts(document, 'script');</script>
 <h3>ProbeHashMap</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">ProbeHashMap</span><wbr><span class="parameters">(int&nbsp;cap,
  int&nbsp;p)</span></div>
-<div class="block">Creates a hash table with the given capacity and prime factor.</div>
+<div class="block">Creates a hash table.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>cap</code> - the initial length of the hash table</dd>
+<dd><code>p</code> - a prime number used for the hash function</dd>
+</dl>
 </section>
 </li>
 </ul>

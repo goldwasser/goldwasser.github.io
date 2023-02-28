@@ -96,6 +96,11 @@ loadScripts(document, 'script');</script>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
+<dt>Type Parameters:</dt>
+<dd><code>K</code> - The key type (keys must be unique and comparable)</dd>
+<dd><code>V</code> - The value type</dd>
+</dl>
+<dl class="notes">
 <dt>All Implemented Interfaces:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Iterable.html" title="class or interface in java.lang" class="external-link">Iterable</a>&lt;<a href="Entry.html" title="interface in net.datastructures">Entry</a>&lt;K,<wbr>V&gt;&gt;</code>, <code><a href="BinaryTree.html" title="interface in net.datastructures">BinaryTree</a>&lt;<a href="Entry.html" title="interface in net.datastructures">Entry</a>&lt;K,<wbr>V&gt;&gt;</code>, <code><a href="Tree.html" title="interface in net.datastructures">Tree</a>&lt;<a href="Entry.html" title="interface in net.datastructures">Entry</a>&lt;K,<wbr>V&gt;&gt;</code></dd>
 </dl>
@@ -123,7 +128,9 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color"><code>protected static class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="TreeMap.BalanceableBinaryTree.BSTNode.html" class="type-name-link" title="class in net.datastructures">TreeMap.BalanceableBinaryTree.BSTNode</a>&lt;<a href="TreeMap.BalanceableBinaryTree.BSTNode.html" title="type parameter in TreeMap.BalanceableBinaryTree.BSTNode">E</a>&gt;</code></div>
-<div class="col-last even-row-color">&nbsp;</div>
+<div class="col-last even-row-color">
+<div class="block">A specialized version of Node that includes an auxiliary int for balancing algorithms</div>
+</div>
 </div>
 <div class="inherited-list">
 <h2 id="nested-classes-inherited-from-class-net.datastructures.LinkedBinaryTree">Nested classes/interfaces inherited from class&nbsp;net.datastructures.<a href="LinkedBinaryTree.html" title="class in net.datastructures">LinkedBinaryTree</a></h2>

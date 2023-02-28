@@ -92,6 +92,7 @@ loadScripts(document, 'script');</script>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">GameEntry</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>
+<div class="block">A representation of an entry on a scoreboard.</div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -106,7 +107,7 @@ loadScripts(document, 'script');</script>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(java.lang.String,int)" class="member-name-link">GameEntry</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;n,
  int&nbsp;s)</code></div>
 <div class="col-last even-row-color">
-<div class="block">Constructs a game entry with given parameters..</div>
+<div class="block">Constructs a game entry with given parameters.</div>
 </div>
 </div>
 </section>
@@ -159,7 +160,12 @@ loadScripts(document, 'script');</script>
 <h3>GameEntry</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">GameEntry</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;n,
  int&nbsp;s)</span></div>
-<div class="block">Constructs a game entry with given parameters..</div>
+<div class="block">Constructs a game entry with given parameters.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>n</code> - the user's name</dd>
+<dd><code>s</code> - the user's score</dd>
+</dl>
 </section>
 </li>
 </ul>
@@ -175,6 +181,10 @@ loadScripts(document, 'script');</script>
 <h3>getName</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getName</span>()</div>
 <div class="block">Returns the name field.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the name of the user</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -182,6 +192,10 @@ loadScripts(document, 'script');</script>
 <h3>getScore</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getScore</span>()</div>
 <div class="block">Returns the score field.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the user's score</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -192,6 +206,8 @@ loadScripts(document, 'script');</script>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dt>Returns:</dt>
+<dd>a string representation of the entry</dd>
 </dl>
 </section>
 </li>
