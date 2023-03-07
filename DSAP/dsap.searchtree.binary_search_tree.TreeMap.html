@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>dsap.searchtree.binary_search_tree.TreeMap</title>
+    <meta name="generator" content="pydoctor 22.9.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          <a href="https://github.com/goldwasser/dsap" class="projecthome">dsap</a> <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div class="hint" id="search-help-box">
+          <p class="rst-last">
+      
+            Search bar offers the following options:
+            <ul>   
+                <li>
+                  <strong>Term presence.</strong> The below example searches for documents that 
+                    must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                </li> 
+
+                <li>
+                  <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                </li> 
+
+                <li>
+                  <strong>Search in specific fields.</strong> The following search matches all objects 
+                  in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+
+                  <p>
+                    Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                    Last two fields are only applicable if "search in docstrings" is enabled.
+                  </p>
+                </li>
+
+                <li>
+                  <strong>Fuzzy matches.</strong> The following search matches all documents 
+                  that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                </li>
+            </ul>
+
+          </p>
+        </div>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 8px;">
+          <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Class</span>
+        <code class="thisobject"><a href="dsap.searchtree.binary_search_tree.TreeMap.html" class="internal-link" title="This class"><wbr></wbr>Tree<wbr></wbr>Map</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.searchtree.binary_search_tree.TreeMap.Position.html" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.Position"><wbr></wbr>Position</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        <div class="childrenKindTitle">Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__delitem__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__delitem__">__delitem__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__getitem__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__getitem__">__getitem__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__iter__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__iter__">__iter__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__reversed__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__reversed__">__reversed__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__setitem__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__setitem__">__setitem__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#after" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.after">after</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#before" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.before">before</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#delete" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.delete">delete</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_ge" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_ge">find<wbr></wbr>_ge</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_gt" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_gt">find<wbr></wbr>_gt</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_le" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_le">find<wbr></wbr>_le</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_lt" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_lt">find<wbr></wbr>_lt</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_max" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_max">find<wbr></wbr>_max</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_min" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_min">find<wbr></wbr>_min</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_position" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_position">find<wbr></wbr>_position</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_range" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_range">find<wbr></wbr>_range</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#first" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.first">first</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#last" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.last">last</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_rebalance_access" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_access">_rebalance<wbr></wbr>_access</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_rebalance_delete" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_delete">_rebalance<wbr></wbr>_delete</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_rebalance_insert" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_insert">_rebalance<wbr></wbr>_insert</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_relink" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._relink">_relink</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_restructure" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._restructure">_restructure</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_rotate" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rotate">_rotate</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_subtree_first_position" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_first_position">_subtree<wbr></wbr>_first<wbr></wbr>_position</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_subtree_last_position" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_last_position">_subtree<wbr></wbr>_last<wbr></wbr>_position</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_subtree_search" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_search">_subtree<wbr></wbr>_search</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        <div class="childrenKindTitle">Inherited Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.binary_tree.BinaryTree.html#children" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.children">children</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.binary_tree.BinaryTree.html#inorder" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.inorder">inorder</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.binary_tree.BinaryTree.html#positions" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.positions">positions</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.binary_tree.BinaryTree.html#sibling" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.sibling">sibling</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#__init__" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.__init__">__init__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#__len__" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.__len__">__len__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#left" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.left">left</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#num_children" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.num_children">num<wbr></wbr>_children</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#parent" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.parent">parent</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#right" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.right">right</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#root" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.root">root</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#breadthfirst" class="internal-link" title="dsap.trees.tree.Tree.breadthfirst">breadthfirst</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#depth" class="internal-link" title="dsap.trees.tree.Tree.depth">depth</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#height" class="internal-link" title="dsap.trees.tree.Tree.height">height</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#is_empty" class="internal-link" title="dsap.trees.tree.Tree.is_empty">is<wbr></wbr>_empty</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#is_leaf" class="internal-link" title="dsap.trees.tree.Tree.is_leaf">is<wbr></wbr>_leaf</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#is_root" class="internal-link" title="dsap.trees.tree.Tree.is_root">is<wbr></wbr>_root</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#postorder" class="internal-link" title="dsap.trees.tree.Tree.postorder">postorder</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#preorder" class="internal-link" title="dsap.trees.tree.Tree.preorder">preorder</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.binary_tree.BinaryTree.html#_subtree_inorder" class="internal-link" title="dsap.trees.binary_tree.BinaryTree._subtree_inorder">_subtree<wbr></wbr>_inorder</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_add_left" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._add_left">_add<wbr></wbr>_left</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_add_right" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._add_right">_add<wbr></wbr>_right</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_add_root" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._add_root">_add<wbr></wbr>_root</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_attach" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._attach">_attach</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_delete" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._delete">_delete</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_make_position" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._make_position">_make<wbr></wbr>_position</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_replace" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._replace">_replace</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_validate" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._validate">_validate</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#_height1" class="internal-link" title="dsap.trees.tree.Tree._height1">_height1</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#_height2" class="internal-link" title="dsap.trees.tree.Tree._height2">_height2</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#_subtree_postorder" class="internal-link" title="dsap.trees.tree.Tree._subtree_postorder">_subtree<wbr></wbr>_postorder</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.tree.Tree.html#_subtree_preorder" class="internal-link" title="dsap.trees.tree.Tree._subtree_preorder">_subtree<wbr></wbr>_preorder</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        <div class="childrenKindTitle">Attributes</div>
+        <ul>
+    
+    <li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_root" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._root">_root</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        <div class="childrenKindTitle">Inherited Attributes</div>
+        <ul>
+    
+    <li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_size" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._size">_size</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code><a href="dsap.searchtree.binary_search_tree.html" class="internal-link" title="The parent of this class">binary<wbr></wbr>_search<wbr></wbr>_tree</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.searchtree.binary_search_tree.TreeMap.html" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap"><wbr></wbr>Tree<wbr></wbr>Map</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        
+         
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="class"><code><code><a href="index.html" class="internal-link">dsap</a></code><wbr></wbr>.<code><a href="dsap.searchtree.html" class="internal-link" title="dsap.searchtree">searchtree</a></code><wbr></wbr>.<code><a href="dsap.searchtree.binary_search_tree.html" class="internal-link" title="dsap.searchtree.binary_search_tree">binary_search_tree</a></code><wbr></wbr>.<code><a href="dsap.searchtree.binary_search_tree.TreeMap.html" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap">TreeMap</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          class documentation
+        </div>
+
+        <div class="extrasDocstring">
+          <p><code><span class="py-keyword">class</span> <span class="py-defname">TreeMap</span>(<a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree">LinkedBinaryTree</a>, <a href="dsap.mapping.map_base.MapBase.html" class="internal-link" title="dsap.mapping.map_base.MapBase">MapBase</a>):</code></p><p>Known subclasses: <code><a href="dsap.searchtree.avl_tree.AVLTreeMap.html" class="internal-link">dsap.searchtree.avl_tree.AVLTreeMap</a></code>, <code><a href="dsap.searchtree.red_black_tree.RedBlackTreeMap.html" class="internal-link">dsap.searchtree.red_black_tree.RedBlackTreeMap</a></code>, <code><a href="dsap.searchtree.splay_tree.SplayTreeMap.html" class="internal-link">dsap.searchtree.splay_tree.SplayTreeMap</a></code></p>
+          <p><a href="classIndex.html#dsap.searchtree.binary_search_tree.TreeMap">View In Hierarchy</a></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p>Sorted map implementation using a binary search tree.</p>
+</div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id174">
+  
+  
+  <tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="dsap.searchtree.binary_search_tree.TreeMap.Position.html" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.Position"><wbr></wbr>Position</a></code></td>
+    <td><span class="undocumented">No class docstring; 2/2 methods documented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__delitem__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__delitem__">__delitem__</a></code></td>
+    <td>Remove item associated with key k (raise KeyError if not found).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__getitem__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__getitem__">__getitem__</a></code></td>
+    <td>Return value associated with key k (raise KeyError if not found).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__iter__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__iter__">__iter__</a></code></td>
+    <td>Generate an iteration of all keys in the map in order.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__reversed__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__reversed__">__reversed__</a></code></td>
+    <td>Generate an iteration of all keys in the map in reverse order.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__setitem__" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.__setitem__">__setitem__</a></code></td>
+    <td>Assign value v to key k, overwriting existing value if present.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#after" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.after">after</a></code></td>
+    <td>Return the Position just after p in the natural order.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#before" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.before">before</a></code></td>
+    <td>Return the Position just before p in the natural order.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#delete" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.delete">delete</a></code></td>
+    <td>Remove the item at given Position.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_ge" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_ge">find<wbr></wbr>_ge</a></code></td>
+    <td>Return (key,value) pair with least key greater than or equal to k.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_gt" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_gt">find<wbr></wbr>_gt</a></code></td>
+    <td>Return (key,value) pair with least key strictly greater than k.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_le" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_le">find<wbr></wbr>_le</a></code></td>
+    <td>Return (key,value) pair with greatest key less than or equal to k.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_lt" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_lt">find<wbr></wbr>_lt</a></code></td>
+    <td>Return (key,value) pair with greatest key strictly less than k.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_max" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_max">find<wbr></wbr>_max</a></code></td>
+    <td>Return (key,value) pair with maximum key (or None if empty).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_min" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_min">find<wbr></wbr>_min</a></code></td>
+    <td>Return (key,value) pair with minimum key (or None if empty).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_position" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_position">find<wbr></wbr>_position</a></code></td>
+    <td>Return position with key k, or else neighbor (or None if empty).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#find_range" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.find_range">find<wbr></wbr>_range</a></code></td>
+    <td>Iterate all (key,value) pairs such that start &lt;= key &lt; stop.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#first" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.first">first</a></code></td>
+    <td>Return the first Position in the tree (or None if empty).</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#last" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap.last">last</a></code></td>
+    <td>Return the last Position in the tree (or None if empty).</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_rebalance_access" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_access">_rebalance<wbr></wbr>_access</a></code></td>
+    <td>Call to indicate that position p was recently accessed.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_rebalance_delete" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_delete">_rebalance<wbr></wbr>_delete</a></code></td>
+    <td>Call to indicate that a child of p has been removed.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_rebalance_insert" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_insert">_rebalance<wbr></wbr>_insert</a></code></td>
+    <td>Call to indicate that position p is newly added.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_relink" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._relink">_relink</a></code></td>
+    <td>Relink parent node with child node (we allow child to be None).</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_restructure" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._restructure">_restructure</a></code></td>
+    <td>Perform a trinode restructure among Position x, its parent, and its grandparent.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_rotate" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._rotate">_rotate</a></code></td>
+    <td>Rotate Position p above its parent.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_subtree_first_position" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_first_position">_subtree<wbr></wbr>_first<wbr></wbr>_position</a></code></td>
+    <td>Return Position of first item in subtree rooted at p.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_subtree_last_position" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_last_position">_subtree<wbr></wbr>_last<wbr></wbr>_position</a></code></td>
+    <td>Return Position of last item in subtree rooted at p.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_subtree_search" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_search">_subtree<wbr></wbr>_search</a></code></td>
+    <td>Return Position of p's subtree having key k, or last node searched.</td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_root" class="internal-link" title="dsap.searchtree.binary_search_tree.TreeMap._root">_root</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+            <p class="inheritedFrom">
+              Inherited from <code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree">LinkedBinaryTree</a></code>:
+            </p>
+            <table class="children sortable" id="id175">
+  
+  
+  <tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#__init__" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.__init__">__init__</a></code></td>
+    <td>Create an initially empty binary tree.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#__len__" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.__len__">__len__</a></code></td>
+    <td>Return the total number of elements in the tree.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#left" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.left">left</a></code></td>
+    <td>Return the Position of p's left child (or None if no left child).</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#num_children" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.num_children">num<wbr></wbr>_children</a></code></td>
+    <td>Return the number of children of Position p.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#parent" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.parent">parent</a></code></td>
+    <td>Return the Position of p's parent (or None if p is root).</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#right" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.right">right</a></code></td>
+    <td>Return the Position of p's right child (or None if no right child).</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#root" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree.root">root</a></code></td>
+    <td>Return the root Position of the tree (or None if tree is empty).</td>
+  </tr><tr class="baseclass private">
+    
+    <td>Class</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree._Node.html" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._Node">_<wbr></wbr>Node</a></code></td>
+    <td>Lightweight, nonpublic class for storing a node.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_add_left" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._add_left">_add<wbr></wbr>_left</a></code></td>
+    <td>Create a new left child for Position p, storing element e.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_add_right" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._add_right">_add<wbr></wbr>_right</a></code></td>
+    <td>Create a new right child for Position p, storing element e.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_add_root" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._add_root">_add<wbr></wbr>_root</a></code></td>
+    <td>Place element e at the root of an empty tree and return new Position.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_attach" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._attach">_attach</a></code></td>
+    <td>Attach trees t1 and t2, respectively, as the left and right subtrees of the external Position p.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_delete" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._delete">_delete</a></code></td>
+    <td>Delete the node at Position p, and replace it with its child, if any.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_make_position" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._make_position">_make<wbr></wbr>_position</a></code></td>
+    <td>Return Position instance for given node (or None if no node).</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_replace" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._replace">_replace</a></code></td>
+    <td>Replace the element at position p with e, and return old element.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_validate" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._validate">_validate</a></code></td>
+    <td>Return associated node, if position is valid.</td>
+  </tr><tr class="baseinstancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_size" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree._size">_size</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+            
+            <p class="inheritedFrom">
+              Inherited from <code><a href="dsap.trees.binary_tree.BinaryTree.html" class="internal-link" title="dsap.trees.binary_tree.BinaryTree">BinaryTree</a></code> (via <code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree">LinkedBinaryTree</a></code>):
+            </p>
+            <table class="children sortable" id="id176">
+  
+  
+  <tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.binary_tree.BinaryTree.html#children" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.children">children</a></code></td>
+    <td>Generate an iteration of Positions representing p's children.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.binary_tree.BinaryTree.html#inorder" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.inorder">inorder</a></code></td>
+    <td>Generate an inorder iteration of positions in the tree.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.binary_tree.BinaryTree.html#positions" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.positions">positions</a></code></td>
+    <td>Generate an iteration of the tree's positions.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.binary_tree.BinaryTree.html#sibling" class="internal-link" title="dsap.trees.binary_tree.BinaryTree.sibling">sibling</a></code></td>
+    <td>Return a Position representing p's sibling (or None if no sibling).</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.binary_tree.BinaryTree.html#_subtree_inorder" class="internal-link" title="dsap.trees.binary_tree.BinaryTree._subtree_inorder">_subtree<wbr></wbr>_inorder</a></code></td>
+    <td>Generate an inorder iteration of positions in subtree rooted at p.</td>
+  </tr>
+</table>
+            
+            <p class="inheritedFrom">
+              Inherited from <code><a href="dsap.trees.tree.Tree.html" class="internal-link" title="dsap.trees.tree.Tree">Tree</a></code> (via <code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree">LinkedBinaryTree</a></code>, <code><a href="dsap.trees.binary_tree.BinaryTree.html" class="internal-link" title="dsap.trees.binary_tree.BinaryTree">BinaryTree</a></code>):
+            </p>
+            <table class="children sortable" id="id177">
+  
+  
+  <tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#breadthfirst" class="internal-link" title="dsap.trees.tree.Tree.breadthfirst">breadthfirst</a></code></td>
+    <td>Generate a breadth-first iteration of the positions of the tree.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#depth" class="internal-link" title="dsap.trees.tree.Tree.depth">depth</a></code></td>
+    <td>Return the number of levels separating Position p from the root.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#height" class="internal-link" title="dsap.trees.tree.Tree.height">height</a></code></td>
+    <td>Return the height of the subtree rooted at Position p.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#is_empty" class="internal-link" title="dsap.trees.tree.Tree.is_empty">is<wbr></wbr>_empty</a></code></td>
+    <td>Return True if the tree is empty.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#is_leaf" class="internal-link" title="dsap.trees.tree.Tree.is_leaf">is<wbr></wbr>_leaf</a></code></td>
+    <td>Return True if Position p does not have any children.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#is_root" class="internal-link" title="dsap.trees.tree.Tree.is_root">is<wbr></wbr>_root</a></code></td>
+    <td>Return True if Position p represents the root of the tree.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#postorder" class="internal-link" title="dsap.trees.tree.Tree.postorder">postorder</a></code></td>
+    <td>Generate a postorder iteration of positions in the tree.</td>
+  </tr><tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#preorder" class="internal-link" title="dsap.trees.tree.Tree.preorder">preorder</a></code></td>
+    <td>Generate a preorder iteration of positions in the tree.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#_height1" class="internal-link" title="dsap.trees.tree.Tree._height1">_height1</a></code></td>
+    <td>Return the height of the tree.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#_height2" class="internal-link" title="dsap.trees.tree.Tree._height2">_height2</a></code></td>
+    <td>Return the height of the subtree rooted at Position p.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#_subtree_postorder" class="internal-link" title="dsap.trees.tree.Tree._subtree_postorder">_subtree<wbr></wbr>_postorder</a></code></td>
+    <td>Generate a postorder iteration of positions in subtree rooted at p.</td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.trees.tree.Tree.html#_subtree_preorder" class="internal-link" title="dsap.trees.tree.Tree._subtree_preorder">_subtree<wbr></wbr>_preorder</a></code></td>
+    <td>Generate a preorder iteration of positions in subtree rooted at p.</td>
+  </tr>
+</table>
+            
+            <p class="inheritedFrom">
+              Inherited from <code><a href="dsap.mapping.map_base.MapBase.html" class="internal-link" title="dsap.mapping.map_base.MapBase">MapBase</a></code> (via <code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html" class="internal-link" title="dsap.trees.linked_binary_tree.LinkedBinaryTree">LinkedBinaryTree</a></code>, <code><a href="dsap.trees.binary_tree.BinaryTree.html" class="internal-link" title="dsap.trees.binary_tree.BinaryTree">BinaryTree</a></code>, <code><a href="dsap.trees.tree.Tree.html" class="internal-link" title="dsap.trees.tree.Tree">Tree</a></code>):
+            </p>
+            <table class="children sortable" id="id178">
+  
+  
+  <tr class="baseclass private">
+    
+    <td>Class</td>
+    <td><code><a href="dsap.mapping.map_base.MapBase._Item.html" class="internal-link" title="dsap.mapping.map_base.MapBase._Item">_<wbr></wbr>Item</a></code></td>
+    <td>Lightweight composite to store key-value pairs as map items.</td>
+  </tr>
+</table>
+            
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.__delitem__">
+    
+  </a>
+  <a name="__delitem__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__delitem__</span>(self, k):
+    
+    <a class="headerLink" href="#__delitem__" title="dsap.searchtree.binary_search_tree.TreeMap.__delitem__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Remove item associated with key k (raise KeyError if not found).</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.__getitem__">
+    
+  </a>
+  <a name="__getitem__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__getitem__</span>(self, k):
+    
+    <a class="headerLink" href="#__getitem__" title="dsap.searchtree.binary_search_tree.TreeMap.__getitem__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return value associated with key k (raise KeyError if not found).</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.__iter__">
+    
+  </a>
+  <a name="__iter__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__iter__</span>(self):
+    
+    <a class="headerLink" href="#__iter__" title="dsap.searchtree.binary_search_tree.TreeMap.__iter__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    <div class="interfaceinfo">overrides <code><a href="dsap.trees.tree.Tree.html#__iter__" class="internal-link">dsap.trees.tree.Tree.__iter__</a></code></div>
+    <div><p>Generate an iteration of all keys in the map in order.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.__reversed__">
+    
+  </a>
+  <a name="__reversed__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__reversed__</span>(self):
+    
+    <a class="headerLink" href="#__reversed__" title="dsap.searchtree.binary_search_tree.TreeMap.__reversed__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Generate an iteration of all keys in the map in reverse order.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.__setitem__">
+    
+  </a>
+  <a name="__setitem__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__setitem__</span>(self, k, v):
+    
+    <a class="headerLink" href="#__setitem__" title="dsap.searchtree.binary_search_tree.TreeMap.__setitem__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Assign value v to key k, overwriting existing value if present.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.after">
+    
+  </a>
+  <a name="after">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">after</span>(self, p):
+    
+    <a class="headerLink" href="#after" title="dsap.searchtree.binary_search_tree.TreeMap.after">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return the Position just after p in the natural order.</p>
+<p>Return None if p is the last position.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.before">
+    
+  </a>
+  <a name="before">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">before</span>(self, p):
+    
+    <a class="headerLink" href="#before" title="dsap.searchtree.binary_search_tree.TreeMap.before">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return the Position just before p in the natural order.</p>
+<p>Return None if p is the first position.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.delete">
+    
+  </a>
+  <a name="delete">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">delete</span>(self, p):
+    
+    <a class="headerLink" href="#delete" title="dsap.searchtree.binary_search_tree.TreeMap.delete">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Remove the item at given Position.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_ge">
+    
+  </a>
+  <a name="find_ge">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_ge</span>(self, k):
+    
+    <a class="headerLink" href="#find_ge" title="dsap.searchtree.binary_search_tree.TreeMap.find_ge">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return (key,value) pair with least key greater than or equal to k.</p>
+<p>Return None if there does not exist such a key.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_gt">
+    
+  </a>
+  <a name="find_gt">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_gt</span>(self, k):
+    
+    <a class="headerLink" href="#find_gt" title="dsap.searchtree.binary_search_tree.TreeMap.find_gt">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return (key,value) pair with least key strictly greater than k.</p>
+<p>Return None if there does not exist such a key.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_le">
+    
+  </a>
+  <a name="find_le">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_le</span>(self, k):
+    
+    <a class="headerLink" href="#find_le" title="dsap.searchtree.binary_search_tree.TreeMap.find_le">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return (key,value) pair with greatest key less than or equal to k.</p>
+<p>Return None if there does not exist such a key.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_lt">
+    
+  </a>
+  <a name="find_lt">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_lt</span>(self, k):
+    
+    <a class="headerLink" href="#find_lt" title="dsap.searchtree.binary_search_tree.TreeMap.find_lt">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return (key,value) pair with greatest key strictly less than k.</p>
+<p>Return None if there does not exist such a key.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_max">
+    
+  </a>
+  <a name="find_max">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_max</span>(self):
+    
+    <a class="headerLink" href="#find_max" title="dsap.searchtree.binary_search_tree.TreeMap.find_max">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return (key,value) pair with maximum key (or None if empty).</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_min">
+    
+  </a>
+  <a name="find_min">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_min</span>(self):
+    
+    <a class="headerLink" href="#find_min" title="dsap.searchtree.binary_search_tree.TreeMap.find_min">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return (key,value) pair with minimum key (or None if empty).</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_position">
+    
+  </a>
+  <a name="find_position">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_position</span>(self, k):
+    
+    <a class="headerLink" href="#find_position" title="dsap.searchtree.binary_search_tree.TreeMap.find_position">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return position with key k, or else neighbor (or None if empty).</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.find_range">
+    
+  </a>
+  <a name="find_range">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_range</span>(self, start, stop):
+    
+    <a class="headerLink" href="#find_range" title="dsap.searchtree.binary_search_tree.TreeMap.find_range">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Iterate all (key,value) pairs such that start &lt;= key &lt; stop.</p>
+<p>If start is None, iteration begins with minimum key of map. If stop is None, iteration continues through the maximum key of map.</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.first">
+    
+  </a>
+  <a name="first">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">first</span>(self):
+    
+    <a class="headerLink" href="#first" title="dsap.searchtree.binary_search_tree.TreeMap.first">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return the first Position in the tree (or None if empty).</p>
+</div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap.last">
+    
+  </a>
+  <a name="last">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">last</span>(self):
+    
+    <a class="headerLink" href="#last" title="dsap.searchtree.binary_search_tree.TreeMap.last">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return the last Position in the tree (or None if empty).</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._rebalance_access">
+    
+  </a>
+  <a name="_rebalance_access">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_rebalance_access</span>(self, p):
+    
+    <a class="headerLink" href="#_rebalance_access" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_access">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    <div class="interfaceinfo">overridden in <code><a href="dsap.searchtree.splay_tree.SplayTreeMap.html" class="internal-link">dsap.searchtree.splay_tree.SplayTreeMap</a></code></div>
+    <div><p>Call to indicate that position p was recently accessed.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._rebalance_delete">
+    
+  </a>
+  <a name="_rebalance_delete">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_rebalance_delete</span>(self, p):
+    
+    <a class="headerLink" href="#_rebalance_delete" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_delete">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    <div class="interfaceinfo">overridden in <code><a href="dsap.searchtree.avl_tree.AVLTreeMap.html" class="internal-link">dsap.searchtree.avl_tree.AVLTreeMap</a></code>, <code><a href="dsap.searchtree.red_black_tree.RedBlackTreeMap.html" class="internal-link">dsap.searchtree.red_black_tree.RedBlackTreeMap</a></code>, <code><a href="dsap.searchtree.splay_tree.SplayTreeMap.html" class="internal-link">dsap.searchtree.splay_tree.SplayTreeMap</a></code></div>
+    <div><p>Call to indicate that a child of p has been removed.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._rebalance_insert">
+    
+  </a>
+  <a name="_rebalance_insert">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_rebalance_insert</span>(self, p):
+    
+    <a class="headerLink" href="#_rebalance_insert" title="dsap.searchtree.binary_search_tree.TreeMap._rebalance_insert">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    <div class="interfaceinfo">overridden in <code><a href="dsap.searchtree.avl_tree.AVLTreeMap.html" class="internal-link">dsap.searchtree.avl_tree.AVLTreeMap</a></code>, <code><a href="dsap.searchtree.red_black_tree.RedBlackTreeMap.html" class="internal-link">dsap.searchtree.red_black_tree.RedBlackTreeMap</a></code>, <code><a href="dsap.searchtree.splay_tree.SplayTreeMap.html" class="internal-link">dsap.searchtree.splay_tree.SplayTreeMap</a></code></div>
+    <div><p>Call to indicate that position p is newly added.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._relink">
+    
+  </a>
+  <a name="_relink">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_relink</span>(self, parent, child, make_left_child):
+    
+    <a class="headerLink" href="#_relink" title="dsap.searchtree.binary_search_tree.TreeMap._relink">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Relink parent node with child node (we allow child to be None).</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._restructure">
+    
+  </a>
+  <a name="_restructure">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_restructure</span>(self, x):
+    
+    <a class="headerLink" href="#_restructure" title="dsap.searchtree.binary_search_tree.TreeMap._restructure">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Perform a trinode restructure among Position x, its parent, and its grandparent.</p>
+<p>Return the Position that becomes root of the restructured subtree.</p>
+<p>Assumes the nodes are in one of the following configurations:</p>
+<pre class="rst-literal-block">
+       z=a                 z=c           z=a               z=c
+      /  \                /  \          /  \              /              t0  y=b             y=b  t3       t0   y=c          y=a  t3
+       /  \            /  \               /  \         /                t1  x=c         x=a  t2            x=b  t3      t0   x=b
+         /  \        /  \               /  \              /                  t2  t3      t0  t1             t1  t2            t1  t2
+</pre>
+<p>The subtree will be restructured so that the node with key b becomes its root:</p>
+<pre class="rst-literal-block">
+                b
+              /                       a       c
+           / \     /                  t0  t1  t2  t3
+</pre>
+<p>Caller should ensure that x has a grandparent.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._rotate">
+    
+  </a>
+  <a name="_rotate">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_rotate</span>(self, p):
+    
+    <a class="headerLink" href="#_rotate" title="dsap.searchtree.binary_search_tree.TreeMap._rotate">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Rotate Position p above its parent.</p>
+<p>Switches between these configurations, depending on whether p==a or p==b:</p>
+<pre class="rst-literal-block">
+          b                   a
+         / \                 /                 a  t2              t0   b
+       / \                     /              t0  t1                  t1  t2
+</pre>
+<p>Caller should ensure that p is not the root.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._subtree_first_position">
+    
+  </a>
+  <a name="_subtree_first_position">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_subtree_first_position</span>(self, p):
+    
+    <a class="headerLink" href="#_subtree_first_position" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_first_position">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return Position of first item in subtree rooted at p.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._subtree_last_position">
+    
+  </a>
+  <a name="_subtree_last_position">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_subtree_last_position</span>(self, p):
+    
+    <a class="headerLink" href="#_subtree_last_position" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_last_position">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return Position of last item in subtree rooted at p.</p>
+</div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._subtree_search">
+    
+  </a>
+  <a name="_subtree_search">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_subtree_search</span>(self, p, k):
+    
+    <a class="headerLink" href="#_subtree_search" title="dsap.searchtree.binary_search_tree.TreeMap._subtree_search">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return Position of p's subtree having key k, or last node searched.</p>
+</div>
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="dsap.searchtree.binary_search_tree.TreeMap._root">
+    
+  </a>
+  <a name="_root">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_root</span> =
+    
+    <a class="headerLink" href="#_root" title="dsap.searchtree.binary_search_tree.TreeMap._root">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    <div class="interfaceinfo">overrides <code><a href="dsap.trees.linked_binary_tree.LinkedBinaryTree.html#_root" class="internal-link">dsap.trees.linked_binary_tree.LinkedBinaryTree._root</a></code></div>
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for <a href="https://github.com/goldwasser/dsap" class="projecthome">dsap</a>,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    22.9.1 at 2023-03-06 23:49:01.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
