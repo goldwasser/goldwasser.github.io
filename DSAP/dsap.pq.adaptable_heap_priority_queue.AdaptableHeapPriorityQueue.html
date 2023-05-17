@@ -220,6 +220,16 @@
             </div>
         
 
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_validate" class="internal-link" title="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue._validate">_validate</a></code>
+            </div>
+        
+
     </li>
 </ul> 
 
@@ -303,6 +313,16 @@
 
         
             <div class="itemName"><code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#_has_right" class="internal-link" title="dsap.pq.heap_priority_queue.HeapPriorityQueue._has_right">_has<wbr></wbr>_right</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#_heapify" class="internal-link" title="dsap.pq.heap_priority_queue.HeapPriorityQueue._heapify">_heapify</a></code>
             </div>
         
 
@@ -462,7 +482,7 @@
     
     <td>Method</td>
     <td><code><a href="#add" class="internal-link" title="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue.add">add</a></code></td>
-    <td>Add a key-value pair.</td>
+    <td>Add a key-value pair and return a Locator for the new entry.</td>
   </tr><tr class="method">
     
     <td>Method</td>
@@ -482,7 +502,12 @@
     
     <td>Method</td>
     <td><code><a href="#_swap" class="internal-link" title="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue._swap">_swap</a></code></td>
-    <td>Swap the elements at indices i and j of array.</td>
+    <td>Swap the items at indices i and j of array.</td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_validate" class="internal-link" title="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue._validate">_validate</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
   </tr>
 </table>
           
@@ -496,7 +521,7 @@
     
     <td>Method</td>
     <td><code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#__init__" class="internal-link" title="dsap.pq.heap_priority_queue.HeapPriorityQueue.__init__">__init__</a></code></td>
-    <td>Create a new empty Priority Queue.</td>
+    <td>Create a new priority queue.</td>
   </tr><tr class="basemethod">
     
     <td>Method</td>
@@ -526,6 +551,11 @@
     
     <td>Method</td>
     <td><code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#_has_right" class="internal-link" title="dsap.pq.heap_priority_queue.HeapPriorityQueue._has_right">_has<wbr></wbr>_right</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="basemethod private">
+    
+    <td>Method</td>
+    <td><code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#_heapify" class="internal-link" title="dsap.pq.heap_priority_queue.HeapPriorityQueue._heapify">_heapify</a></code></td>
     <td><span class="undocumented">Undocumented</span></td>
   </tr><tr class="basemethod private">
     
@@ -600,7 +630,7 @@
   </div>
   <div class="docstring functionBody">
     <div class="interfaceinfo">overrides <code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#add" class="internal-link">dsap.pq.heap_priority_queue.HeapPriorityQueue.add</a></code></div>
-    <div><p>Add a key-value pair.</p>
+    <div><p>Add a key-value pair and return a Locator for the new entry.</p>
 </div>
   </div>
 </div><div class="basemethod">
@@ -638,7 +668,7 @@
   </a>
   <div class="functionHeader">
     
-    <span class="py-keyword">def</span> <span class="py-defname">update</span>(self, loc, newkey, newval):
+    <span class="py-keyword">def</span> <span class="py-defname">update</span>(self, loc, newkey, newvalue):
     
     <a class="headerLink" href="#update" title="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue.update">
       
@@ -695,8 +725,31 @@
   </div>
   <div class="docstring functionBody">
     <div class="interfaceinfo">overrides <code><a href="dsap.pq.heap_priority_queue.HeapPriorityQueue.html#_swap" class="internal-link">dsap.pq.heap_priority_queue.HeapPriorityQueue._swap</a></code></div>
-    <div><p>Swap the elements at indices i and j of array.</p>
+    <div><p>Swap the items at indices i and j of array.</p>
 </div>
+  </div>
+</div><div class="basemethod private">
+  
+  
+  <a name="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue._validate">
+    
+  </a>
+  <a name="_validate">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_validate</span>(self, loc):
+    
+    <a class="headerLink" href="#_validate" title="dsap.pq.adaptable_heap_priority_queue.AdaptableHeapPriorityQueue._validate">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
   </div>
 </div>
         </div>
@@ -710,7 +763,7 @@
   <div class="container">
     <a href="index.html">API Documentation</a> for <a href="https://github.com/goldwasser/dsap" class="projecthome">dsap</a>,
   generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
-    22.9.1 at 2023-03-07 00:39:09.
+    22.9.1 at 2023-05-17 10:10:33.
   </div>
 
   <!-- Search related scripts needs to be loaded at the end of HTML 
