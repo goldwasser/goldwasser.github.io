@@ -1,0 +1,14 @@
+com.zybooks.dsaj.analysis
+com.zybooks.dsaj.design
+com.zybooks.dsaj.fundamental
+com.zybooks.dsaj.graph
+com.zybooks.dsaj.list
+com.zybooks.dsaj.map
+com.zybooks.dsaj.pq
+com.zybooks.dsaj.primer
+com.zybooks.dsaj.recursion
+com.zybooks.dsaj.searchtree
+com.zybooks.dsaj.stackqueue
+com.zybooks.dsaj.text
+com.zybooks.dsaj.tree
+com.zybooks.dsaj.util
