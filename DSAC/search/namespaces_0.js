@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['analysis_0',['analysis',['../namespacedsac_1_1analysis.html',1,'dsac']]],
+  ['array_1',['array',['../namespacedsac_1_1array.html',1,'dsac']]],
+  ['design_2',['design',['../namespacedsac_1_1design.html',1,'dsac']]],
+  ['dsac_3',['dsac',['../namespacedsac.html',1,'']]],
+  ['graph_4',['graph',['../namespacedsac_1_1graph.html',1,'dsac']]],
+  ['list_5',['list',['../namespacedsac_1_1list.html',1,'dsac']]],
+  ['map_6',['map',['../namespacedsac_1_1map.html',1,'dsac']]],
+  ['primer_7',['primer',['../namespacedsac_1_1primer.html',1,'dsac']]],
+  ['priority_8',['priority',['../namespacedsac_1_1priority.html',1,'dsac']]],
+  ['recursion_9',['recursion',['../namespacedsac_1_1recursion.html',1,'dsac']]],
+  ['search_5ftree_10',['search_tree',['../namespacedsac_1_1search__tree.html',1,'dsac']]],
+  ['searchtree_11',['searchtree',['../namespacedsac_1_1searchtree.html',1,'dsac']]],
+  ['sorting_12',['sorting',['../namespacedsac_1_1sorting.html',1,'dsac']]],
+  ['stackqueue_13',['stackqueue',['../namespacedsac_1_1stackqueue.html',1,'dsac']]],
+  ['text_14',['text',['../namespacedsac_1_1text.html',1,'dsac']]],
+  ['tree_15',['tree',['../namespacedsac_1_1tree.html',1,'dsac']]]
+];

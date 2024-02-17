@@ -1,0 +1,7 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,55,56"/>
+<area shape="rect" id="Node000002" href="$namespacedsac_1_1primer.html#ae66628f88fb486f0341f2b4e28ed095e" title="Returns the number of occurrences of target character in string s." alt="" coords="118,5,252,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,37,103,29,104,34,56,42"/>
+<area shape="rect" id="Node000003" href="$namespacedsac_1_1primer.html#af8a5df57cc2e4aea81fb26ccc0ff8318" title="Removes all occurrences of target character from string s." alt="" coords="103,55,267,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="56,45,88,50,87,55,55,50"/>
+</map>

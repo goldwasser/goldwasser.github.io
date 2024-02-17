@@ -1,0 +1,7 @@
+<map id="dsac::search_tree::AVLTreeMap::taller_child" name="dsac::search_tree::AVLTreeMap::taller_child">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,170,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1search__tree_1_1_a_v_l_tree_map.html#aac3fa7d0af0cccfdd0572ca99dd77649" title="Returns the height of the given node (nullptr is considered 0)" alt="" coords="218,5,355,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,23,203,23,203,28,170,28"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1search__tree_1_1_a_v_l_tree_map.html#a9c6cf8a3833370f91ce6dbf4e9ac4c39" title=" " alt="" coords="403,5,536,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,23,388,23,388,28,355,28"/>
+</map>

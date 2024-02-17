@@ -1,0 +1,5 @@
+<map id="dsac::array::TicTacToe::get_winner" name="dsac::array::TicTacToe::get_winner">
+<area shape="rect" id="Node000001" title="Returns the winning player&#39;s mark, or EMPTY to indicate a tie or unfinished game." alt="" coords="5,5,160,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1array_1_1_tic_tac_toe.html#a248f8b21c0666730a316e4d08716b3b1" title="Checks whether the board configuration is a win for the given player." alt="" coords="208,5,362,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,23,193,23,193,28,160,28"/>
+</map>

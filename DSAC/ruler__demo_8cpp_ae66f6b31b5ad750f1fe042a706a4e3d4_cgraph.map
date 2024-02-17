@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,55,92"/>
+<area shape="rect" id="Node000002" href="$namespacedsac_1_1recursion.html#a94978d11ed236edfbf74e6c8d86ec66e" title=" " alt="" coords="103,59,249,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,76,88,76,88,82,55,82"/>
+<area shape="rect" id="Node000003" href="$namespacedsac_1_1recursion.html#af7f6113e8f10e30b6e52af91f3bf5c28" title="Draws a ruler interval around a central tick length." alt="" coords="297,29,443,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,65,282,60,283,66,250,71"/>
+<area shape="rect" id="Node000004" href="$namespacedsac_1_1recursion.html#a761636a30bcd79aaa42e2621151ad097" title="Draws a line with the given tick length, followed by an optional label." alt="" coords="491,66,665,92"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="249,78,297,79,443,79,476,79,476,84,443,84,297,84,249,84"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="333,29,331,19,337,10,350,5,370,3,392,5,404,12,402,17,390,10,370,8,352,10,341,15,337,20,338,28"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="444,57,477,62,476,67,443,63"/>
+</map>

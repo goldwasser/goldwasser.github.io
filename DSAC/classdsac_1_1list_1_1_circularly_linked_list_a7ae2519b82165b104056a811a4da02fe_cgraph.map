@@ -1,0 +1,7 @@
+<map id="dsac::list::CircularlyLinkedList::~CircularlyLinkedList" name="dsac::list::CircularlyLinkedList::~CircularlyLinkedList">
+<area shape="rect" id="Node000001" title="default destructor" alt="" coords="5,5,181,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1list_1_1_circularly_linked_list.html#abb3c8c32ee8dc93ef9811583e9ce920d" title="Resets the list to empty." alt="" coords="229,5,404,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,23,214,23,214,28,181,28"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1list_1_1_circularly_linked_list.html#acb48d1d5f2e31d8bb40f479866f22c4d" title="Removes the first element of the list." alt="" coords="452,5,627,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,23,437,23,437,28,404,28"/>
+</map>

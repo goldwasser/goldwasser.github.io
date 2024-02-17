@@ -1,0 +1,5 @@
+<map id="dsac::array::TicTacToe::TicTacToe" name="dsac::array::TicTacToe::TicTacToe">
+<area shape="rect" id="Node000001" title="Creates a new game with empty board and player X&#39;s turn." alt="" coords="5,5,160,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1array_1_1_tic_tac_toe.html#aa5e8c43ba7ac871f23450ca6d05a0c15" title="Resets the board for a new game." alt="" coords="208,5,362,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,23,193,23,193,28,160,28"/>
+</map>

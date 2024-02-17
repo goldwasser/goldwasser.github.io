@@ -1,0 +1,9 @@
+<map id="dsac::sorting::merge_sort" name="dsac::sorting::merge_sort">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,7,175,33"/>
+<area shape="rect" id="Node000002" href="$namespacedsac_1_1sorting.html#a782a02c972d1300db27ae1745cde1d77" title="Merges the contents of sorted vectors S1 and S2 into result S." alt="" coords="440,7,580,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,9,223,5,307,3,392,5,425,8,425,13,392,11,307,8,223,11,176,14"/>
+<area shape="rect" id="Node000003" href="$namespacedsac_1_1sorting.html#a72dfb59eaa82743110feb42bcb83dd48" title="Sorts the contents of vector S using the given comparator to define the element ordering." alt="" coords="223,45,392,70"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,31,215,39,214,44,168,36"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="380,41,425,33,426,38,381,47"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="273,46,267,36,271,26,285,20,307,18,333,21,346,29,343,33,332,26,307,23,286,25,275,30,272,35,278,43"/>
+</map>

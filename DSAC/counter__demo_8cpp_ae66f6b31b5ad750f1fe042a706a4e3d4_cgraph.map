@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,78,55,104"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1design_1_1_counter.html#ad76cec109874bae50b234db508f13733" title=" " alt="" coords="103,5,252,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,78,116,50,118,55,56,83"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1design_1_1_counter.html#a6717dac8f2b0d8aae23a3339ace67f47" title="Increments the counter value by one." alt="" coords="103,71,252,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,88,87,88,87,94,55,94"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1design_1_1_counter.html#af4326de0aa0b19de078eb6dabb380c88" title="Resets the counter value to zero." alt="" coords="103,136,252,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,99,118,127,116,132,54,104"/>
+</map>

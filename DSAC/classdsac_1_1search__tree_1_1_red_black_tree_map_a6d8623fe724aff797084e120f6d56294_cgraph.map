@@ -1,0 +1,44 @@
+<map id="dsac::search_tree::RedBlackTreeMap::rebalance_delete" name="dsac::search_tree::RedBlackTreeMap::rebalance_delete">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,487,199,543"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a9ad8d60bd32c11a8ecd461f2333e00b6" title=" " alt="" coords="252,331,403,387"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,485,272,393,275,398,145,489"/>
+<area shape="rect" id="Node000007" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a0a8919a14fd3e6f2f3b2a5f7c373ba19" title=" " alt="" coords="456,5,663,46"/>
+<area shape="poly" id="edge23_Node000001_Node000007" title=" " alt="" coords="114,485,159,401,233,284,280,222,333,161,391,105,455,57,465,51,468,55,457,61,394,109,336,165,284,225,238,287,164,403,119,488"/>
+<area shape="rect" id="Node000013" href="$classdsac_1_1search__tree_1_1_tree_map_1_1_balanceable_binary_tree.html#a1e12e79a16e80d6ed712875219096b4b" title=" " alt="" coords="466,578,654,634"/>
+<area shape="poly" id="edge24_Node000001_Node000013" title=" " alt="" coords="199,512,301,519,355,527,409,538,483,569,481,574,407,543,354,532,300,525,199,518"/>
+<area shape="rect" id="Node000016" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#afc3913b7799846c3adab1b2216567396" title=" " alt="" coords="254,553,401,608"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="200,541,240,552,238,557,198,546"/>
+<area shape="rect" id="Node000017" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a4537a7c95eefdd17d140baa56bb613d4" title="Returns the number of entries in the map." alt="" coords="247,632,408,673"/>
+<area shape="poly" id="edge25_Node000001_Node000017" title=" " alt="" coords="138,541,189,580,248,618,258,623,255,628,245,623,185,584,135,545"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="283,331,284,321,292,312,306,306,327,305,352,307,366,314,364,319,350,312,327,310,308,312,295,316,289,323,288,331"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a417b8c3882449b43bb46fe86f4cb7765" title="Return a red child of p (or nullptr, if no such child)" alt="" coords="482,447,637,503"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="380,385,457,426,482,438,480,443,455,431,378,390"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a6ffd5d24b32eda35f5b0ec1ae9d65d03" title=" " alt="" coords="719,455,892,495"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="404,372,664,432,720,448,719,453,663,438,403,377"/>
+<area shape="rect" id="Node000006" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#aa88b5434912b456873b8f81873f21880" title=" " alt="" coords="713,520,898,561"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="345,386,363,418,388,453,420,486,457,513,516,535,578,548,640,552,698,551,698,556,640,558,577,553,514,540,455,517,416,490,384,456,359,420,340,389"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="338,330,405,168,454,57,460,52,463,56,458,61,410,170,343,332"/>
+<area shape="rect" id="Node000009" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a2d84d9e873276fa15155d813f101b413" title=" " alt="" coords="463,71,657,111"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="334,330,349,285,374,229,409,172,430,145,454,122,461,117,464,121,458,126,434,149,413,175,379,231,354,287,339,332"/>
+<area shape="rect" id="Node000010" href="$classdsac_1_1search__tree_1_1_tree_map_1_1_balanceable_binary_tree.html#a885239f223a604634e8818b805c07f68" title=" " alt="" coords="466,266,654,322"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="403,335,450,322,452,327,404,340"/>
+<area shape="rect" id="Node000011" href="$classdsac_1_1search__tree_1_1_tree_map_1_1_balanceable_binary_tree.html#ac10857f09f7656b3eb5b8c7405d75de3" title=" " alt="" coords="711,299,900,355"/>
+<area shape="poly" id="edge16_Node000002_Node000011" title=" " alt="" coords="403,351,696,332,697,337,404,357"/>
+<area shape="poly" id="edge17_Node000002_Node000013" title=" " alt="" coords="346,386,401,480,432,527,458,557,472,568,469,572,454,561,428,530,397,483,342,389"/>
+<area shape="rect" id="Node000014" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a4bc92bc9cc9c8642280b0137c52a86e9" title=" " alt="" coords="465,201,655,242"/>
+<area shape="poly" id="edge18_Node000002_Node000014" title=" " alt="" coords="354,329,399,289,455,251,466,246,468,250,457,256,403,293,358,333"/>
+<area shape="rect" id="Node000015" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#ac41312820f6eb6d0fbcca761fc84c14c" title=" " alt="" coords="473,136,647,177"/>
+<area shape="poly" id="edge20_Node000002_Node000015" title=" " alt="" coords="341,329,385,259,417,220,454,188,463,182,466,186,458,192,421,224,389,262,345,332"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="638,472,704,472,704,478,638,478"/>
+<area shape="rect" id="Node000005" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a9c6cf8a3833370f91ce6dbf4e9ac4c39" title=" " alt="" coords="963,487,1121,527"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="892,484,949,492,948,497,891,489"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="898,525,948,518,949,523,899,530"/>
+<area shape="rect" id="Node000008" href="$classdsac_1_1search__tree_1_1_red_black_tree_map.html#a3e6e0a4fbef3b56264bb1dc4ae0746d8" title=" " alt="" coords="714,71,897,111"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="640,44,713,64,712,69,638,49"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="657,88,699,88,699,94,657,94"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="655,304,697,310,696,315,654,309"/>
+<area shape="rect" id="Node000012" href="$classdsac_1_1search__tree_1_1_tree_map_1_1_balanceable_binary_tree.html#ab165d42237fe64303c2307beeb36aaf2" title=" " alt="" coords="948,299,1136,355"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="900,324,933,324,933,330,900,330"/>
+<area shape="poly" id="edge19_Node000014_Node000008" title=" " alt="" coords="633,198,662,186,718,153,766,118,769,123,721,158,665,191,635,203"/>
+<area shape="poly" id="edge22_Node000016_Node000004" title=" " alt="" coords="387,606,409,618,433,633,457,643,516,660,565,671,588,672,611,669,635,659,662,644,677,629,684,614,687,580,689,543,696,525,709,507,714,502,718,506,713,510,701,527,695,544,693,580,689,616,681,632,665,648,638,664,612,674,588,678,565,677,515,665,455,648,430,637,407,623,384,611"/>
+</map>

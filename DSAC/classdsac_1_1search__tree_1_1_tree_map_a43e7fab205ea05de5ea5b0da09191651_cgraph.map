@@ -1,0 +1,5 @@
+<map id="dsac::search_tree::TreeMap::TreeMap" name="dsac::search_tree::TreeMap::TreeMap">
+<area shape="rect" id="Node000001" title="Creates an empty map." alt="" coords="5,5,139,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1tree_1_1_linked_binary_tree.html#a8b1ba71726d7dd914d0106b89ff541d1" title="Creates a root for an empty tree, storing e as the element; should never be called on non&#45;empty tree." alt="" coords="187,5,349,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,23,172,23,172,28,139,28"/>
+</map>

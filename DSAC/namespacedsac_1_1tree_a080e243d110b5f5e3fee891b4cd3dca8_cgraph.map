@@ -1,0 +1,6 @@
+<map id="dsac::tree::height_bad" name="dsac::tree::height_bad">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,156,55"/>
+<area shape="rect" id="Node000002" href="$namespacedsac_1_1tree.html#a6de03181491339d32b77577fef3a08e0" title="returns the number of proper ancestors of p" alt="" coords="204,29,323,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,40,189,40,189,45,156,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="232,30,227,21,230,11,243,5,263,3,286,6,298,13,295,17,285,11,263,8,244,10,234,15,232,20,237,27"/>
+</map>

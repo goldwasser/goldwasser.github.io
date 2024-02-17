@@ -1,0 +1,10 @@
+<map id="dsac::graph::dfs_complete" name="dsac::graph::dfs_complete">
+<area shape="rect" id="Node000001" title="Performs DFS of an entire graph, returning the discovery map." alt="" coords="5,59,181,84"/>
+<area shape="rect" id="Node000002" href="$namespacedsac_1_1graph.html#a074471411cd7ae1f765fa58d2597aa76" title=" " alt="" coords="237,29,353,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,56,222,50,223,55,181,61"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1graph_1_1_graph.html#aebd6249f149e4cab4515a1d4c8c2dc0a" title="Returns a list of Vertex tokens." alt="" coords="229,79,361,120"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="181,81,214,86,214,91,181,86"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="264,30,258,21,262,11,275,5,295,3,318,6,329,13,326,17,316,11,295,8,276,10,266,15,264,20,269,28"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1graph_1_1_graph.html#a349b47bfff42f9540cf2a4c5b6c2a7a4" title="Returns a list of outgoing (or incoming) Vertex tokens for neighbors of Vertex v." alt="" coords="409,22,541,63"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="353,40,394,40,394,45,353,45"/>
+</map>

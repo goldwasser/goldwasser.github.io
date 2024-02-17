@@ -1,0 +1,9 @@
+<map id="dsac::search_tree::AVLTreeMap::recompute_height" name="dsac::search_tree::AVLTreeMap::recompute_height">
+<area shape="rect" id="Node000001" title="Recomputes the height of the given position based on its children&#39;s heights." alt="" coords="5,31,169,87"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1search__tree_1_1_a_v_l_tree_map.html#aac3fa7d0af0cccfdd0572ca99dd77649" title="Returns the height of the given node (nullptr is considered 0)" alt="" coords="222,5,360,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,43,207,37,208,42,169,48"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1search__tree_1_1_a_v_l_tree_map.html#a3e6e0a4fbef3b56264bb1dc4ae0746d8" title=" " alt="" coords="217,71,365,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,69,203,74,202,80,169,74"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1search__tree_1_1_a_v_l_tree_map.html#a9c6cf8a3833370f91ce6dbf4e9ac4c39" title=" " alt="" coords="413,5,546,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,23,399,23,399,28,360,28"/>
+</map>

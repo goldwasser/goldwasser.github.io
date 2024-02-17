@@ -1,0 +1,11 @@
+<map id="dsac::search_tree::TreeMap::erase" name="dsac::search_tree::TreeMap::erase">
+<area shape="rect" id="Node000001" title="Removes the entry indicated by the given iterator, and returns const_iterator to next entry in iterat..." alt="" coords="5,104,139,145"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1tree_1_1_linked_binary_tree.html#a7493413988ec458b7ac1ba834e1e3a8e" title=" " alt="" coords="195,5,357,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,101,185,57,201,50,203,54,188,61,108,106"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1search__tree_1_1_tree_map.html#a8b1a49ae9efbc61468566896f3bb4d2b" title=" " alt="" coords="209,71,343,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,111,194,102,195,107,140,116"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1search__tree_1_1_tree_map.html#a61d32f3ed8c9161873aef2ead83b1121" title=" " alt="" coords="187,136,365,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="140,132,172,137,172,143,139,137"/>
+<area shape="rect" id="Node000005" href="$classdsac_1_1search__tree_1_1_tree_map.html#ad8f345959ac143d73c1ff0ce2df0c457" title=" " alt="" coords="206,201,346,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="109,143,188,186,204,193,201,198,185,191,106,148"/>
+</map>

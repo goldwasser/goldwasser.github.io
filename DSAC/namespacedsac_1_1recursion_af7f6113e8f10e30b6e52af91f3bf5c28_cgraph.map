@@ -1,0 +1,6 @@
+<map id="dsac::recursion::draw_interval" name="dsac::recursion::draw_interval">
+<area shape="rect" id="Node000001" title="Draws a ruler interval around a central tick length." alt="" coords="5,29,152,70"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="39,29,37,19,44,10,58,5,79,3,102,5,115,12,113,17,100,10,78,8,59,10,47,15,42,20,44,28"/>
+<area shape="rect" id="Node000002" href="$namespacedsac_1_1recursion.html#a761636a30bcd79aaa42e2621151ad097" title="Draws a line with the given tick length, followed by an optional label." alt="" coords="200,37,373,63"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="152,47,185,47,185,52,152,52"/>
+</map>

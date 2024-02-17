@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,46,55,72"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1design_1_1_predatory_credit_card.html#ac58e37fe89809ab521d94585ca1a9077" title=" " alt="" coords="103,5,297,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,52,88,45,89,50,56,57"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1design_1_1_predatory_credit_card.html#aa4299272321d95a4451ec2efac404bf1" title=" " alt="" coords="103,71,297,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,61,89,67,88,73,55,66"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1design_1_1_credit_card.html#a62bfe507fa7a52b8c583f2c14e26eae0" title=" " alt="" coords="345,5,511,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="298,23,330,23,330,28,298,28"/>
+</map>

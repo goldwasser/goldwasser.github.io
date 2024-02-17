@@ -1,0 +1,5 @@
+<map id="dsac::list::SinglyLinkedList::clear" name="dsac::list::SinglyLinkedList::clear">
+<area shape="rect" id="Node000001" title="resets the list to empty" alt="" coords="5,5,162,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1list_1_1_singly_linked_list.html#a4e218ef28b87c2a6d743d8a0b44be3ec" title="Removes the first element of the list; behavior undefined if list is empty." alt="" coords="210,5,366,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,23,195,23,195,28,162,28"/>
+</map>

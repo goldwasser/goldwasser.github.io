@@ -1,0 +1,12 @@
+<map id="dsac/analysis/prefix_average_demo.cpp" name="dsac/analysis/prefix_average_demo.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,5,230,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,65,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,49,68,88,65,83,128,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,94,160,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,48,138,81,133,79,149,45"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="230,168,288,193"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,45,245,153,241,156,171,48"/>
+<area shape="rect" id="Node000005" href="$prefix__average_8h.html" title=" " alt="" coords="236,94,405,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="201,44,284,85,282,90,199,49"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="312,122,281,158,277,155,308,118"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="dsac::graph::mst_prim_jarnik" name="dsac::graph::mst_prim_jarnik">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,157,145"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1graph_1_1_graph.html#a85550b43ba22fbc017cb3eb8d325e222" title="Return the edge from u to v; undefined behavior if no such edge exists." alt="" coords="205,5,337,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,101,203,57,215,51,217,56,206,61,122,106"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1graph_1_1_graph.html#aeb83650c80e138467c7b7b29c455f55b" title="Returns a list of outgoing (or incoming) Edge tokens for Vertex v." alt="" coords="205,71,337,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,108,190,103,191,108,157,114"/>
+<area shape="rect" id="Node000004" href="$classdsac_1_1graph_1_1_graph.html#a50839e0140863b54a1d7634e2ffe8aa3" title="Returns the opposite endpoint to Vertex v for Edge e." alt="" coords="205,136,337,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,134,190,140,190,145,156,140"/>
+<area shape="rect" id="Node000005" href="$classdsac_1_1graph_1_1_graph.html#aebd6249f149e4cab4515a1d4c8c2dc0a" title="Returns a list of Vertex tokens." alt="" coords="205,201,337,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="123,143,206,186,217,192,215,196,203,191,121,148"/>
+</map>

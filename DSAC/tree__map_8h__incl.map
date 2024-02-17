@@ -1,0 +1,22 @@
+<map id="dsac/searchtree/tree_map.h" name="dsac/searchtree/tree_map.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="153,5,293,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,102,83,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,49,83,97,81,92,181,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="246,183,325,208"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,49,171,67,152,88,142,111,143,122,148,133,164,152,185,166,233,184,231,189,183,171,161,156,143,136,138,123,137,110,147,85,167,63,190,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="158,102,210,127"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,48,198,89,193,87,211,45"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="234,102,291,127"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="234,45,254,87,249,89,229,48"/>
+<area shape="rect" id="Node000006" href="$abstract__map_8h.html" title=" " alt="" coords="315,102,456,127"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="261,44,351,92,349,97,258,49"/>
+<area shape="rect" id="Node000007" href="$linked__binary__tree_8h.html" title=" " alt="" coords="480,94,603,135"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="294,44,466,90,465,95,293,49"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="372,130,314,175,310,171,368,125"/>
+<area shape="rect" id="Node000008" href="$tree_8h.html" title=" " alt="" coords="464,183,518,208"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="531,137,508,171,504,169,527,134"/>
+<area shape="rect" id="Node000010" href="$binary__tree_8h.html" title=" " alt="" coords="543,183,639,208"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="556,134,578,168,573,171,551,136"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="463,256,519,282"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="493,209,493,241,488,241,488,209"/>
+</map>

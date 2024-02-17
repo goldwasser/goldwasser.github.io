@@ -1,0 +1,7 @@
+<map id="dsac::search_tree::TreeMap::search" name="dsac::search_tree::TreeMap::search">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,139,79"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1search__tree_1_1_tree_map.html#a1964f66354ae66cb69000e61c595a4de" title="Returns true if the map is empty, false otherwise." alt="" coords="187,5,320,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,44,172,38,173,43,139,49"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1search__tree_1_1_tree_map.html#a5942d2f9fde2ae5be388b2f8be42e8e7" title=" " alt="" coords="187,71,320,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,68,173,74,172,79,138,73"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="dsac::list::DoublyLinkedList::operator=" name="dsac::list::DoublyLinkedList::operator=">
+<area shape="rect" id="Node000001" title="copy assignment" alt="" coords="5,5,167,46"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1list_1_1_doubly_linked_list.html#a2ad6724fb201f52462138efa4a2815c5" title="resets the list to empty" alt="" coords="215,5,376,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,23,200,23,200,28,167,28"/>
+<area shape="rect" id="Node000003" href="$classdsac_1_1list_1_1_doubly_linked_list.html#a16c51ed0f9b3fdaabc0f8b4e29423c69" title="Removes the first element of the list." alt="" coords="424,5,585,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="377,23,409,23,409,28,377,28"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="dsac::graph::Partition::combine" name="dsac::graph::Partition::combine">
+<area shape="rect" id="Node000001" title="Combines the clusters containing elements indicated by p and q (if not already the same cluster)" alt="" coords="5,29,151,70"/>
+<area shape="rect" id="Node000002" href="$classdsac_1_1graph_1_1_partition.html#a6418551d96f8b3e61c9fb42b3d8ac386" title=" " alt="" coords="199,29,344,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,47,184,47,184,52,151,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="234,29,233,19,239,10,252,5,271,3,293,5,305,12,303,17,291,10,271,8,253,10,242,15,238,20,240,28"/>
+</map>

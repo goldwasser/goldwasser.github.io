@@ -1,0 +1,4 @@
+<map id="dsac::recursion::power" name="dsac::recursion::power">
+<area shape="rect" id="Node000001" title="Computes the value of x raised to the nth power, for nonnegative integer n." alt="" coords="5,29,159,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="56,30,51,21,54,11,64,5,82,3,102,6,111,13,108,17,100,11,82,8,66,10,58,15,56,20,60,28"/>
+</map>

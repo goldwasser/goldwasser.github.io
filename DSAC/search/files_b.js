@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['namespace_2eh_0',['namespace.h',['../analysis_2namespace_8h.html',1,'(Global Namespace)'],['../array_2namespace_8h.html',1,'(Global Namespace)'],['../design_2namespace_8h.html',1,'(Global Namespace)'],['../graph_2namespace_8h.html',1,'(Global Namespace)'],['../list_2namespace_8h.html',1,'(Global Namespace)'],['../map_2namespace_8h.html',1,'(Global Namespace)'],['../namespace_8h.html',1,'(Global Namespace)'],['../primer_2namespace_8h.html',1,'(Global Namespace)'],['../priority_2namespace_8h.html',1,'(Global Namespace)'],['../recursion_2namespace_8h.html',1,'(Global Namespace)'],['../searchtree_2namespace_8h.html',1,'(Global Namespace)'],['../sorting_2namespace_8h.html',1,'(Global Namespace)'],['../stackqueue_2namespace_8h.html',1,'(Global Namespace)'],['../text_2namespace_8h.html',1,'(Global Namespace)'],['../tree_2namespace_8h.html',1,'(Global Namespace)']]]
+];

@@ -1,0 +1,11 @@
+<map id="dsac/list/favorites_list_mtf.h" name="dsac/list/favorites_list_mtf.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="54,5,179,46"/>
+<area shape="rect" id="Node000002" href="$favorites__list_8h.html" title=" " alt="" coords="6,94,112,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,48,79,83,74,80,100,45"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="137,94,211,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="133,45,159,80,154,83,129,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,168,44,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="56,121,39,155,34,153,51,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="68,168,120,193"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="67,119,84,153,79,155,63,121"/>
+</map>
